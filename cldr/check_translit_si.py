@@ -9,19 +9,12 @@ GRAPHEMES = icu.UnicodeSet()
 GRAPHEMES.applyPattern('[[:Sinh:] [:Cf:]]')
 
 PHONEMES = makePhonemeSet("""
-
-    m n ɲ ŋ
-    p b ᵐb ⁿd ʈ ɖ ⁿɖ k ɡ ᵑɡ
-    s ʃ
-    t͡ʃ  d͡ʒ
-    f h
-    r r̩
-    ʋ l j
-    w
-
-    i iː   u uː
-    e eː ə o oː
-    æː æ   a aː
+    p b t d c ɟ ʈ ɖ k g
+    m n ɲ ŋ b̃ d̃ ɖ̃ ɟ̃ g̃ f s ʃ h
+    r l j ʋ ɑ ɑː æ æː i iː
+    u uː e eː o oː ə əː ɑ̃ː æ̃ː ə̃ː
+    ɑ̯i ɑu iu ei eu æi æu ɑi̯ ɑ̯u oi ou ui ɑːi
+    eːi oːi oːu uːi æːi ɑːu æːu iːu w
     .
 
 """)
